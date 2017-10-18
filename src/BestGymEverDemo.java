@@ -77,10 +77,10 @@ public class BestGymEverDemo {
                 JOptionPane.showMessageDialog(null, "Du är inte en kund hos oss.");
             }
 
-            fileScanner.close();
+            fileScanner.close(); //stänger filen
 
          }catch (Exception e) { //superklassen till alla exceptions
-            System.out.println("Något fel inträffa");
+            System.out.println("Något fel har inträffat");
         }  
     }
     
